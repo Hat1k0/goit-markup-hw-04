@@ -147,7 +147,7 @@ img {
 /* !!! ------------------ MAIN-HEAD(STUDIO) ------------------ !!!*/
 .main-hero-section {
   background-image: linear-gradient(to right, #2f303a60, #2f303a60),
-    url(/image/main-bg-img.jpg);
+    url(./image/main-bg-img.jpg);
 
   background-repeat: no-repeat;
   max-width: 1600px;
