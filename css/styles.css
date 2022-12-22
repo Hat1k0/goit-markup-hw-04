@@ -147,7 +147,7 @@ img {
 /* !!! ------------------ MAIN-HEAD(STUDIO) ------------------ !!!*/
 .main-hero-section {
   background-image: linear-gradient(to right, #2f303a60, #2f303a60),
-    url(./image/main-bg-img.jpg);
+    url(/image/main-bg-img.jpg);
 
   background-repeat: no-repeat;
   max-width: 1600px;
@@ -261,7 +261,7 @@ img {
   margin-right: 30px;
 }
 /* !!! ------------------ MAIN-OUR-TEAM(STUDIO) ------------------ !!!*/
-#portfolio {
+.portfolio-section {
   background-color: #f5f4fa;
   width: 100%;
 }
@@ -333,7 +333,7 @@ border-radius: 0px 0px 4px 4px;
   background-color: var(--accent-color);
   fill: #fff;
 }
-/* !!!----------------- CLIENTAGE MAIN-------------------- !!!*/
+/* !!!----------------- CLIENTAGE STUDY-------------------- !!!*/
 .clientage-section {
   padding-top: 94px;
 }
@@ -367,8 +367,10 @@ border-radius: 0px 0px 4px 4px;
   width: 170px;
   height: 92px;
 }
-.clientage-link-icon:hover {
+.clientage-link-icon:hover{
   border: 1px solid var(--accent-color);
+}
+.clientage-link-icon:hover .clientage-icon {
   fill: var(--accent-color);
 }
 .clientage-icon {
@@ -376,9 +378,7 @@ border-radius: 0px 0px 4px 4px;
   margin-left: auto;
   fill: #757575;
 }
-.clientage-icon:hover {
-  fill: var(--accent-color);
-}
+
 /* !!! ------------------ MAIN-FILTER(PORTFOLIO) ------------------ !!!*/
 .portfolio-section {
   padding-top: 94px;

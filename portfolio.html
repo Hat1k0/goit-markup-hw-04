@@ -35,13 +35,19 @@
         </nav>
         <ul class="head-contacts">
           <li class="head-list-item-contacts">
-            <a class="head-contacts-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="head-contacts-link" href="mailto:info@devstudio.com">
+              <svg class="head-mail-icon" height="12px" width="16px">
+                <use href="./image/sprait_new.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="head-list-item-contacts">
-            <a class="head-contacts-link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+            <a class="head-contacts-link" href="tel:+380961111111">
+              <svg class="tel-icon" height="16px" width="10px">
+                <use href="./image/sprait_new.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -195,32 +201,65 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="footer-logo" href="index.html"
-          ><span class="span-logo">Web</span>Studio</a
-        >
+        <div class="footer-first-content">
+          <a class="footer-logo" href="index.html"
+            ><span class="span-logo">Web</span>Studio</a
+          >
 
-        <address class="footer-address">
-          <ul class="footer-address-ul">
-            <li class="address-list-item">
-              <a
-                class="footer-address-link"
-                href="https://goo.gl/maps/acpGFTv24inK1z5D9"
-              >
-                м. Київ, пр-т Лесі Українки, 26</a
-              >
+          <address class="footer-address">
+            <ul class="footer-address-ul">
+              <li class="address-list-item">
+                <a
+                  class="footer-address-link"
+                  href="https://goo.gl/maps/acpGFTv24inK1z5D9"
+                >
+                  м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li id="contact-list-item" class="contact-list-item">
+                <a class="footer-link-mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contact-list-item">
+                <a class="footer-link-num" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social-content">
+          <h3 class="footer-social-title">приєднуйтесь</h3>
+          <ul class="footer-social-list">
+
+
+            <li class="footer-list-item_icon">
+              <a class="footer-link_icon" href=""
+                ><svg width="20px" height="20px">
+                  <use href="./image/sprait.svg#icon-instagram"></use></svg
+              ></a>
             </li>
-            <li id="contact-list-item" class="contact-list-item">
-              <a class="footer-link-mail" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+            <li class="footer-list-item_icon">
+              <a class="footer-link_icon" href=""
+                ><svg width="20px" height="20px">
+                  <use href="./image/sprait.svg#icon-twitter"></use></svg
+              ></a>
             </li>
-            <li class="contact-list-item">
-              <a class="footer-link-num" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+            <li class="footer-list-item_icon">
+              <a class="footer-link_icon" href=""
+                ><svg width="20px" height="20px">
+                  <use href="./image/sprait.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="footer-list-item_icon">
+              <a class="footer-link_icon" href=""
+                ><svg width="20px" height="20px">
+                  <use href="./image/sprait.svg#icon-in"></use></svg
+              ></a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
