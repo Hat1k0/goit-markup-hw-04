@@ -335,6 +335,9 @@ border-radius: 0px 0px 4px 4px;
   border-radius: 50%;
   fill: #AFB1B8;
 }
+.our-team-list-item_icon:not(:last-child){
+  margin-right: 10px;
+}
 .our-team-link_icon:hover,
 .our-team-link_icon:focus {
   background-color: var(--accent-color);
@@ -386,8 +389,7 @@ border-radius: 0px 0px 4px 4px;
   fill: #2196F3;
 }
 .clientage-icon {
-  margin-right: auto;
-  margin-left: auto;
+
   fill: #757575;
 }
 
@@ -470,14 +472,12 @@ button:focus {
 .project-li {
   margin: 15px;
 }
-.project-li:focus,
-.project-li:hover{
-
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .project-li a {
   text-decoration: none;
+}
+.project-li a:focus,
+.project-li a:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project-text-block {
   border-bottom: 1px #EEEEEE solid;
